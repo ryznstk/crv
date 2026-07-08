@@ -7,7 +7,7 @@ set -e
 export PROJECTFOLDER="LOS"
 export PROJECTID="93"
 export REPO_INIT="https://github.com/accupara/los22.git -b lineage-22.1 --git-lfs --depth=1"
-export BUILD_DIFFERENT_ROM="repo init -u  https://github.com/ascp-oss/manifest.gi -b sixteen-qpr2 --git-lfs --depth=1"
+export BUILD_DIFFERENT_ROM="repo init -u https://github.com/AxionAOSP/android.git -b lineage-23.2 --git-lfs --depth 1"
 # ================================
 # Destroy Old Clones
 # ================================
@@ -69,7 +69,7 @@ crave run --no-patch -- "
   # Build
   # ================================
   echo '>>> Starting build'
-  lunch custom_peridot-bp4a-user
+  axion peridot gms user
   make installclean
-  mka ascp
+  ax -br
 "
