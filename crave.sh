@@ -4,9 +4,9 @@ set -e
 # ================================
 # Project Configuration
 # ================================
-export PROJECTFOLDER="LOS"
-export PROJECTID="93"
-export REPO_INIT="https://github.com/accupara/los22.git -b lineage-22.1 --git-lfs --depth=1"
+export PROJECTFOLDER="VOS"
+export PROJECTID="82"
+export REPO_INIT="https://github.com/PixelOS-AOSP/android_manifest -b sixteen --git-lfs --depth=1"
 export BUILD_DIFFERENT_ROM="repo init -u https://github.com/VoltageOS/manifest.git -b 16.2 --git-lfs --depth 1"
 # ================================
 # Destroy Old Clones
