@@ -69,6 +69,7 @@ crave run --no-patch -- "
   # Build
   # ================================
   echo '>>> Starting build'
+  lunch voltage_peridot-bp4a-user
   make installclean
-  brunch peridot user
+  m bacon
 "
