@@ -52,7 +52,8 @@ crave run --no-patch -- "
   # Clone local manifests
   # ================================
   echo '>>> Cloning local manifests'
-  git clone https://github.com/ryznstk/manifest.git -b main .repo/local_manifests/
+  #git clone https://github.com/ryznstk/manifest.git -b main .repo/local_manifests/
+  git clone -b vos https://github.com/ryznstk/pure.git device/xiaomi/peridot
 
   # ================================
   # Sync sources
